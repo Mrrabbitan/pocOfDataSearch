@@ -1,0 +1,15 @@
+请撰写“具体实施方式”，中文、专利风格。
+要求：
+1) 结合实施例描述流程与结构；
+2) 可用项目符号列出关键组成、步骤、参数与控制逻辑；
+3) 若有替换方案请说明。
+题目：{{title}}
+实施例描述：{{embodiments}}
+实施前提：{{implementation_preconditions}}
+关键组成：{{core_components}}
+方法步骤：{{process_steps}}
+方法步骤详细说明：{{implementation_steps_detail}}
+关键参数：{{parameters}}
+控制逻辑：{{control_logic}}
+替换方案：{{alternatives}}
+替换方案实施示例：{{alternative_example}}

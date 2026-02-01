@@ -1,0 +1,6 @@
+请撰写“背景技术”段落，中文、专利风格，2-3 段。
+题目：{{title}}
+背景技术与现有问题：{{background}}
+现有技术现状：{{background_status}}
+技术问题列表：{{background_issues}}
+发明要解决的技术问题：{{problem_to_solve}}

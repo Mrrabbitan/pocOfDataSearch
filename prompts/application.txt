@@ -1,0 +1,5 @@
+请撰写“应用场景”，中文、专利风格，1-2 段。
+题目：{{title}}
+应用场景：{{application_scenarios}}
+应用场景列表：{{application_scenarios_list}}
+应用场景补充说明：{{application_notes}}

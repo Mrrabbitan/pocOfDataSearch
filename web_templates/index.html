@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{{ web_title }}</title>
+    <link rel="stylesheet" href="/static/styles.css" />
+  </head>
+  <body>
+    <header class="page-header">
+      <div>
+        <h1>{{ web_title }}</h1>
+        <p class="subtitle">输入题目并补充关键信息，系统生成完整交底书并可下载。</p>
+      </div>
+      <div class="header-actions">
+        <span class="badge">当前模式：{{ provider }}</span>
+        <a class="ghost-button" href="/?sample=1">填充示例</a>
+      </div>
+    </header>
+
+    {% if error %}
+    <div class="alert error">{{ error }}</div>
+    {% endif %}
+
+    {% if issues and not sections %}
+    <div class="alert warning">
+      <strong>校验提示：</strong>
+      <ul>
+        {% for issue in issues %}
+        <li>{{ issue }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+    {% endif %}
+
+    {% macro render_section(section, level=3) %}
+    {% if level > 6 %}
+      {% set level = 6 %}
+    {% endif %}
+    <article class="section level-{{ level }}">
+      <h{{ level }}>{{ section.title }}</h{{ level }}>
+      {% for paragraph in section.paragraphs %}
+      <p>{{ paragraph }}</p>
+      {% endfor %}
+      {% if section.bullets %}
+      <ul>
+        {% for bullet in section.bullets %}
+        <li>{{ bullet }}</li>
+        {% endfor %}
+      </ul>
+      {% endif %}
+      {% for sub in section.subsections %}
+        {{ render_section(sub, level + 1) }}
+      {% endfor %}
+    </article>
+    {% endmacro %}
+
+    <main class="layout">
+      <section class="panel">
+        <h2>输入信息</h2>
+        <form method="post" action="/generate">
+          {% for group in groups %}
+          {% if group.collapsible %}
+          <details class="group collapsible">
+            <summary>{{ group.title }}</summary>
+            <div class="group-body">
+              {% for q in group.questions %}
+              <div class="field">
+                <label for="{{ q.key }}">
+                  {{ q.label }}
+                  {% if q.required %}<span class="required">*</span>{% endif %}
+                </label>
+                {% if q.key == "title" %}
+                <input
+                  type="text"
+                  id="{{ q.key }}"
+                  name="{{ q.key }}"
+                  value="{{ form_values[q.key] }}"
+                  placeholder="例如：一种用于XXX的YYY方法"
+                />
+                {% else %}
+                <textarea
+                  id="{{ q.key }}"
+                  name="{{ q.key }}"
+                  rows="4"
+                  placeholder="{{ q.help or '' }}"
+                >{{ form_values[q.key] }}</textarea>
+                {% endif %}
+                {% if q.help %}
+                <div class="help">{{ q.help }}</div>
+                {% endif %}
+              </div>
+              {% endfor %}
+            </div>
+          </details>
+          {% else %}
+          <div class="group">
+            <h3>{{ group.title }}</h3>
+            {% for q in group.questions %}
+            <div class="field">
+              <label for="{{ q.key }}">
+                {{ q.label }}
+                {% if q.required %}<span class="required">*</span>{% endif %}
+              </label>
+              {% if q.key == "title" %}
+              <input
+                type="text"
+                id="{{ q.key }}"
+                name="{{ q.key }}"
+                value="{{ form_values[q.key] }}"
+                placeholder="例如：一种用于XXX的YYY方法"
+              />
+              {% else %}
+              <textarea
+                id="{{ q.key }}"
+                name="{{ q.key }}"
+                rows="4"
+                placeholder="{{ q.help or '' }}"
+              >{{ form_values[q.key] }}</textarea>
+              {% endif %}
+              {% if q.help %}
+              <div class="help">{{ q.help }}</div>
+              {% endif %}
+            </div>
+            {% endfor %}
+          </div>
+          {% endif %}
+          {% endfor %}
+          <div class="form-footer">
+            <button class="primary" type="submit">生成交底书</button>
+            <p class="hint">列表类输入建议用“；”分隔，术语请使用“术语=说明”格式。</p>
+          </div>
+        </form>
+      </section>
+
+      <section class="panel">
+        <h2>生成结果</h2>
+        {% if sections %}
+        <div class="download">
+          <a class="primary" href="/download/{{ download_name }}">下载交底书 .docx</a>
+          <p class="hint">如需重新生成，可调整左侧内容后再次提交。</p>
+        </div>
+        {% if issues %}
+        <div class="alert warning">
+          <strong>一致性检查提示：</strong>
+          <ul>
+            {% for issue in issues %}
+            <li>{{ issue }}</li>
+            {% endfor %}
+          </ul>
+        </div>
+        {% endif %}
+        <div class="preview">
+          {% for section in sections %}
+            {{ render_section(section) }}
+          {% endfor %}
+        </div>
+        {% else %}
+        <p class="placeholder">提交信息后，此处将显示交底书预览与下载链接。</p>
+        {% endif %}
+      </section>
+    </main>
+  </body>
+</html>

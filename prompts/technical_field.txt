@@ -1,0 +1,4 @@
+请根据以下信息撰写“技术领域”段落，中文、专利风格，1-2 段。
+题目：{{title}}
+技术领域：{{technical_field}}
+技术领域详细描述：{{technical_field_detail}}

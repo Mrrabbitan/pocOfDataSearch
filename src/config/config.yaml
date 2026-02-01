@@ -1,0 +1,12 @@
+provider: template
+model: ""
+temperature: 0.2
+max_tokens: 1200
+base_url: "https://api.openai.com"
+template_path: "templates/disclosure.docx"
+use_template: false
+prompt_dir: "prompts"
+output_dir: "outputs"
+web_title: "专利交底书生成器"
+rich_mode: true
+use_llm: false

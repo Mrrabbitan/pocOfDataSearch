@@ -4,3 +4,4 @@
 现有技术现状：{{background_status}}
 技术问题列表：{{background_issues}}
 发明要解决的技术问题：{{problem_to_solve}}
+要求：使用客观表述，避免主观评价或营销描述。

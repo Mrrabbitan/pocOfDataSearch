@@ -1,0 +1,15 @@
+timestamp: 2026-02-08T12:00:50.937908
+kind: paper
+chat_id: oc_89adfbccab858f60c722d8d2476622de
+group_name: 全球 ai 要点群
+doc_url: https://feishu.cn/docx/RkKZdthqRoRIUoxw0tzcFCUTnwe
+📚 大模型论文速递 2026年02月08日
+近 365 天 · 12 篇 · 顶会/顶刊（近似 Q1）
+文档链接: https://feishu.cn/docx/RkKZdthqRoRIUoxw0tzcFCUTnwe
+
+精选论文：
+1. DyTopo: Dynamic Topology Routing for Multi-Agent Reasoning via Semantic Matching
+2. CommCP: Efficient Multi-Agent Coordination via LLM-Based Communication with Conformal Prediction
+3. DFlash: Block Diffusion for Flash Speculative Decoding
+4. PhysicsAgentABM: Physics-Guided Generative Agent-Based Modeling
+5. Curiosity is Knowledge: Self-Consistent Learning and No-Regret Optimization with Active Inference

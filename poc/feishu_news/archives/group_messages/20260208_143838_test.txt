@@ -1,0 +1,6 @@
+timestamp: 2026-02-08T14:38:38.873607
+kind: test
+chat_id: oc_test
+group_name: test
+doc_url: https://example.com
+TEST push at 12:30

@@ -1,0 +1,15 @@
+timestamp: 2026-02-09T09:02:49.692985
+kind: news
+chat_id: oc_89adfbccab858f60c722d8d2476622de
+group_name: 全球 ai 要点群
+doc_url: https://feishu.cn/docx/PkPTd1747oRArcxrbDuc8jKWnke
+📰 AI 科技日报 2026年02月09日
+共 5 篇
+文档链接: https://feishu.cn/docx/PkPTd1747oRArcxrbDuc8jKWnke
+
+今日精选：
+1. Crypto.com places $70M bet on AI.com domain ahead of Super Bowl
+2. Okay, I’m slightly less mad about that ‘Magnificent Ambersons’ AI project
+3. From Svedka to Anthropic, brands make bold plays with AI in Super Bowl ads
+4. AI News & Artificial Intelligence | TechCrunch
+5. 展望2026，Ai行业有哪些创新机会？ - 36氪

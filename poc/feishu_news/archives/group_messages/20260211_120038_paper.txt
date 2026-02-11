@@ -1,0 +1,15 @@
+timestamp: 2026-02-11T12:00:38.589077
+kind: paper
+chat_id: oc_89adfbccab858f60c722d8d2476622de
+group_name: 全球 ai 要点群
+doc_url: https://feishu.cn/docx/Ewnqdpa6TogIbCx7hIjcKsLAnDc
+📚 大模型论文速递 2026年02月11日
+近 365 天 · 12 篇 · 顶会/顶刊（近似 Q1）
+文档链接: https://feishu.cn/docx/Ewnqdpa6TogIbCx7hIjcKsLAnDc
+
+精选论文：
+1. Biases in the Blind Spot: Detecting What LLMs Fail to Mention
+2. CAPID: Context-Aware PII Detection for Question-Answering Systems
+3. Monocular Normal Estimation via Shading Sequence Estimation
+4. Routing, Cascades, and User Choice for LLMs
+5. Circuit Fingerprints: How Answer Tokens Encode Their Geometrical Path

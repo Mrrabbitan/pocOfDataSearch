@@ -1,0 +1,15 @@
+timestamp: 2026-02-13T11:01:36.130891
+kind: news
+chat_id: oc_89adfbccab858f60c722d8d2476622de
+group_name: 全球 ai 要点群
+doc_url: https://feishu.cn/docx/DsTcd1M1ioPzl7xe4ujcl6yDnre
+📰 AI 科技日报 2026年02月13日
+共 7 篇
+文档链接: https://feishu.cn/docx/DsTcd1M1ioPzl7xe4ujcl6yDnre
+
+今日精选：
+1. Amid disappointing earnings, Pinterest claims it sees more searches than ChatGPT
+2. IBM will hire your entry-level talent in the age of AI
+3. Musk needed a new vision for SpaceX and xAI. He landed on Moonbase Alpha.
+4. Didero lands $30M to put manufacturing procurement on ‘agentic’ autopilot
+5. Anthropic raises another $30B in Series G, with a new value of $380B

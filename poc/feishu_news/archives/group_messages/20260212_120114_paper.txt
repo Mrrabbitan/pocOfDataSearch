@@ -1,0 +1,15 @@
+timestamp: 2026-02-12T12:01:14.579614
+kind: paper
+chat_id: oc_89adfbccab858f60c722d8d2476622de
+group_name: 全球 ai 要点群
+doc_url: https://feishu.cn/docx/R3AWdudL0octbaxzLtFckxEsnpb
+📚 大模型论文速递 2026年02月12日
+近 365 天 · 12 篇 · 顶会/顶刊（近似 Q1）
+文档链接: https://feishu.cn/docx/R3AWdudL0octbaxzLtFckxEsnpb
+
+精选论文：
+1. Data Repetition Beats Data Scaling in Long-CoT Supervised Fine-Tuning
+2. Beyond VLM-Based Rewards: Diffusion-Native Latent Reward Modeling
+3. TabICLv2: A better, faster, scalable, and open tabular foundation model
+4. Weight Decay Improves Language Model Plasticity
+5. FormalJudge: A Neuro-Symbolic Paradigm for Agentic Oversight

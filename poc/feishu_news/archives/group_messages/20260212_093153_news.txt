@@ -1,0 +1,15 @@
+timestamp: 2026-02-12T09:31:53.772638
+kind: news
+chat_id: oc_89adfbccab858f60c722d8d2476622de
+group_name: 全球 ai 要点群
+doc_url: https://feishu.cn/docx/Ds4zdCVfnoHClWx0QpXc8n7cnNh
+📰 AI 科技日报 2026年02月12日
+共 12 篇
+文档链接: https://feishu.cn/docx/Ds4zdCVfnoHClWx0QpXc8n7cnNh
+
+今日精选：
+1. xAI lays out interplanetary ambitions in public all-hands
+2. AI inference startup Modal Labs in talks to raise at $2.5B valuation, sources say
+3. OpenAI disbands mission alignment team
+4. Apple’s Siri revamp reportedly delayed… again
+5. Uber Eats launches AI assistant to help with grocery cart creation

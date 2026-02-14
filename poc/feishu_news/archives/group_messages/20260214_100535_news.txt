@@ -1,0 +1,15 @@
+timestamp: 2026-02-14T10:05:35.975235
+kind: news
+chat_id: oc_89adfbccab858f60c722d8d2476622de
+group_name: 全球 ai 要点群
+doc_url: https://feishu.cn/docx/MbrydSQOYoGYO6xEk7wc1VZmnJd
+📰 AI 科技日报 2026年02月14日
+共 6 篇
+文档链接: https://feishu.cn/docx/MbrydSQOYoGYO6xEk7wc1VZmnJd
+
+今日精选：
+1. Airbnb says a third of its customer support is now handled by AI in the US and Canada
+2. Why top talent is walking away from OpenAI and xAI
+3. OpenAI removes access to sycophancy-prone GPT-4o model
+4. AI burnout, billion-dollar bets, and Silicon Valley’s Epstein problem
+5. Anthropic’s Super Bowl ads mocking AI with ads helped push Claude’s app into the top 10

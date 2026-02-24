@@ -1,0 +1,15 @@
+timestamp: 2026-02-24T12:01:04.771476
+kind: paper
+chat_id: oc_89adfbccab858f60c722d8d2476622de
+group_name: 全球 ai 要点群
+doc_url: https://feishu.cn/docx/CE8GdRVdso3NewxtDGncz1iLn7d
+📚 大模型论文速递 2026年02月24日
+近 365 天 · 12 篇 · 顶会/顶刊（近似 Q1）
+文档链接: https://feishu.cn/docx/CE8GdRVdso3NewxtDGncz1iLn7d
+
+精选论文：
+1. Align When They Want, Complement When They Need! Human-Centered Ensembles for Adaptive Human-AI Collaboration
+2. StructXLIP: Enhancing Vision-language Models with Multimodal Structural Cues
+3. ReAttn: Improving Attention-based Re-ranking via Attention Re-weighting
+4. GOAL: Geometrically Optimal Alignment for Continual Generalized Category Discovery
+5. TeHOR: Text-Guided 3D Human and Object Reconstruction with Textures

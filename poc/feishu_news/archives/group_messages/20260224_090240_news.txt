@@ -1,0 +1,15 @@
+timestamp: 2026-02-24T09:02:40.988615
+kind: news
+chat_id: oc_89adfbccab858f60c722d8d2476622de
+group_name: 全球 ai 要点群
+doc_url: https://feishu.cn/docx/Suf9dcXc1o1f5PxJWdkc9Xb6n4f
+📰 AI 科技日报 2026年02月24日
+共 9 篇
+文档链接: https://feishu.cn/docx/Suf9dcXc1o1f5PxJWdkc9Xb6n4f
+
+今日精选：
+1. A Meta AI security researcher said an OpenClaw agent ran amok on her inbox
+2. With AI, investor loyalty is (almost) dead: At least a dozen OpenAI VCs now also back Anthropic
+3. Anthropic accuses Chinese AI labs of mining Claude as US debates AI chip exports
+4. Google’s Cloud AI leads on the three frontiers of model capability
+5. OpenAI calls in the consultants for its enterprise push

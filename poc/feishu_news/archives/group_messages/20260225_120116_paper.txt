@@ -1,0 +1,15 @@
+timestamp: 2026-02-25T12:01:16.447236
+kind: paper
+chat_id: oc_89adfbccab858f60c722d8d2476622de
+group_name: 全球 ai 要点群
+doc_url: https://feishu.cn/docx/Hx2FdZ32JoK63mxy8ILc9w1Ongh
+📚 大模型论文速递 2026年02月25日
+近 365 天 · 12 篇 · 顶会/顶刊（近似 Q1）
+文档链接: https://feishu.cn/docx/Hx2FdZ32JoK63mxy8ILc9w1Ongh
+
+精选论文：
+1. XMorph: Explainable Brain Tumor Analysis Via LLM-Assisted Hybrid Deep Intelligence
+2. NoRD: A Data-Efficient Vision-Language-Action Model that Drives without Reasoning
+3. A Benchmark for Deep Information Synthesis
+4. Echoes Over Time: Unlocking Length Generalization in Video-to-Audio Generation Models
+5. Extending $μ$P: Spectral Conditions for Feature Learning Across Optimizers

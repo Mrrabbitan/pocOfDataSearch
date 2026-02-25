@@ -1,0 +1,15 @@
+timestamp: 2026-02-25T09:01:53.131943
+kind: news
+chat_id: oc_89adfbccab858f60c722d8d2476622de
+group_name: 全球 ai 要点群
+doc_url: https://feishu.cn/docx/QEf6dYSUWoA3klxaVrOc1OTInYb
+📰 AI 科技日报 2026年02月25日
+共 7 篇
+文档链接: https://feishu.cn/docx/QEf6dYSUWoA3klxaVrOc1OTInYb
+
+今日精选：
+1. Nvidia challenger AI chip startup MatX raised $500M
+2. Spanish ‘soonicorn’ Multiverse Computing releases free compressed AI model
+3. Uber engineers built an AI version of their boss
+4. Anthropic won’t budge as Pentagon escalates AI dispute
+5. Google adds a way to create automated workflows to Opal

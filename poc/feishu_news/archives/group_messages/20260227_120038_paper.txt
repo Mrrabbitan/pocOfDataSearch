@@ -1,0 +1,15 @@
+timestamp: 2026-02-27T12:00:38.672736
+kind: paper
+chat_id: oc_89adfbccab858f60c722d8d2476622de
+group_name: 全球 ai 要点群
+doc_url: https://feishu.cn/docx/W08bdhWiGo5ZAZx8IHecLtoon9R
+📚 大模型论文速递 2026年02月27日
+近 365 天 · 12 篇 · 顶会/顶刊（近似 Q1）
+文档链接: https://feishu.cn/docx/W08bdhWiGo5ZAZx8IHecLtoon9R
+
+精选论文：
+1. Differentiable Zero-One Loss via Hypersimplex Projections
+2. Efficient Encoder-Free Fourier-based 3D Large Multimodal Model
+3. Toward Automatic Filling of Case Report Forms: A Case Study on Data from an Italian Emergency Department
+4. SubspaceAD: Training-Free Few-Shot Anomaly Detection via Subspace Modeling
+5. Exploratory Memory-Augmented LLM Agent via Hybrid On- and Off-Policy Optimization
